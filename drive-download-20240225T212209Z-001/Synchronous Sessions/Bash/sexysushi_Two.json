@@ -1,0 +1,420 @@
+{
+  "_id": {
+    "$oid": "65d8e5e099bc654b5fa9f3e5"
+  },
+  "timestamp": "2024-02-23 18:58:38.506",
+  "log_id": "634b9bc22f2981cee46257c23aed2192029acce1cbac1f6758a96654ad4a3658-2024-02-23",
+  "machine_id": "a0de2",
+  "session_id": "sexysushi",
+  "course_id": "Cyverse-RNA-Tutorial",
+  "log_type": "Bash",
+  "log": {
+    "commands": [
+      {
+        "time": "2024-02-23:18:37",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:38",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:38",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "jovyan\nshiny",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:38",
+        "command": "cd",
+        "full_command": "cd home",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 357: cd: home: No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:41",
+        "command": "cd",
+        "full_command": "cd ~",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:41",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:42",
+        "command": "cd",
+        "full_command": "cd mkdir ~/PermissionTest",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 357: cd: too many arguments",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:42",
+        "command": "mkdir",
+        "full_command": "mkdir ~/PermissionTest",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:42",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nPermissionTest\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:42",
+        "command": "cd",
+        "full_command": "cd PermissionTest/",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:42",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:42",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan/PermissionTest",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:44",
+        "command": "echo",
+        "full_command": "echo \"hello\" > hello.txt",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:44",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "hello.txt",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:44",
+        "command": "cat",
+        "full_command": "cat hello.txt",
+        "stdout": "hello",
+        "stderr": "",
+        "filename": "hello.txt",
+        "file": "hello"
+      },
+      {
+        "time": "2024-02-23:18:46",
+        "command": "cp",
+        "full_command": "cp hello.txt original_hello.txt",
+        "stdout": "",
+        "stderr": "",
+        "filename": "hello.txt",
+        "file": "hello"
+      },
+      {
+        "time": "2024-02-23:18:46",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "hello.txt\noriginal_hello.txt",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:46",
+        "command": "cat",
+        "full_command": "cat original_hello.txt",
+        "stdout": "hello",
+        "stderr": "",
+        "filename": "original_hello.txt",
+        "file": "hello"
+      },
+      {
+        "time": "2024-02-23:18:50",
+        "command": "chmod",
+        "full_command": "chmod u+w hello.txt",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:50",
+        "command": "echo",
+        "full_command": "echo \"hello\" > hello.txt",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:51",
+        "command": "cat",
+        "full_command": "cat hello.txt",
+        "stdout": "hello",
+        "stderr": "",
+        "filename": "hello.txt",
+        "file": "hello"
+      },
+      {
+        "time": "2024-02-23:18:51",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:52",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nPermissionTest\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:52",
+        "command": "echo",
+        "full_command": "echo \"remove_me\" > remove_me.txt",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:52",
+        "command": "cd",
+        "full_command": "cd PermissionTest",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:52",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "hello.txt\noriginal_hello.txt",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:53",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:53",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nPermissionTest\nremove_me.txt\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:53",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nPermissionTest\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:54",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nPermissionTest\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:55",
+        "command": "chmod",
+        "full_command": "chmod u-r PermissionTest",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:55",
+        "command": "cd",
+        "full_command": "cd PermissionTest",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:55",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "",
+        "stderr": "ls: cannot open directory '.': Permission denied",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:55",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:55",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nPermissionTest\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:56",
+        "command": "chmod",
+        "full_command": "chmod u+r PermissionTest",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:56",
+        "command": "cd",
+        "full_command": "cd PermissionTest/",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:56",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "hello.txt\noriginal_hello.txt",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:56",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:58",
+        "command": "chmod",
+        "full_command": "chmod u-rwx PermissionTest/",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:58",
+        "command": "cd",
+        "full_command": "cd PermissionTest",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 357: cd: PermissionTest: Permission denied",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:58",
+        "command": "chmod",
+        "full_command": "chmod u+rwx PermissionTest/",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:58",
+        "command": "cd",
+        "full_command": "cd PermissionTest/",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:58",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-23:18:58",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nPermissionTest\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      }
+    ]
+  }
+}

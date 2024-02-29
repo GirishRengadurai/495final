@@ -1,0 +1,816 @@
+{
+  "_id": {
+    "$oid": "65d3c48d99bc654b5f53a829"
+  },
+  "timestamp": "2024-02-19 23:15:50.143",
+  "log_id": "099a8d9b3f52920959ccaa6bc64c5225afe09743ce92e1013b9193e26fe910be-2024-02-19",
+  "machine_id": "a4271",
+  "session_id": "sexysushi",
+  "course_id": "Cyverse-RNA-Tutorial",
+  "log_type": "Bash",
+  "log": {
+    "commands": [
+      {
+        "time": "2024-02-19:21:13",
+        "command": "ls",
+        "full_command": "ls /home/jovyan",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:14",
+        "command": "ls",
+        "full_command": "ls /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES",
+        "stdout": "Drug_A\nDrug_B",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:14",
+        "command": "ls",
+        "full_command": "ls ./data-store/data/input/RNA_SEQ_SAMPLES",
+        "stdout": "Drug_A\nDrug_B",
+        "stderr": "",
+        "filename": "./data-store/data/input/RNA_SEQ_SAMPLES",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:15",
+        "command": "ls",
+        "full_command": "ls stderr.txt",
+        "stdout": "stderr.txt",
+        "stderr": "",
+        "filename": "stderr.txt",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:15",
+        "command": "ls",
+        "full_command": "ls Stderr.txt",
+        "stdout": "",
+        "stderr": "ls: cannot access 'Stderr.txt': No such file or directory",
+        "filename": "Stderr.txt",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:15",
+        "command": "ls",
+        "full_command": "ls d^t",
+        "stdout": "",
+        "stderr": "ls: cannot access 'd^t': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:15",
+        "command": "ls",
+        "full_command": "ls data-store/data/input/D^t",
+        "stdout": "",
+        "stderr": "ls: cannot access 'data-store/data/input/D^t': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:16",
+        "command": "ls",
+        "full_command": "ls data-store/data/input/D^t^t",
+        "stdout": "",
+        "stderr": "ls: cannot access 'data-store/data/input/D^t^t': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:17",
+        "command": "~",
+        "full_command": "~ jovyan$ ls data-store/data/input/D",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 371: /home/jovyan: Is a directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:17",
+        "command": "~",
+        "full_command": "~ jovyan$ ls data-store/data/input/D",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 371: /home/jovyan: Is a directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:17",
+        "command": "ls",
+        "full_command": "ls d^t",
+        "stdout": "",
+        "stderr": "ls: cannot access 'd^t': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:18",
+        "command": "ls",
+        "full_command": "ls d^t",
+        "stdout": "",
+        "stderr": "ls: cannot access 'd^t': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:19",
+        "command": "ls",
+        "full_command": "ls d^t",
+        "stdout": "",
+        "stderr": "ls: cannot access 'd^t': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:20",
+        "command": "ls",
+        "full_command": "ls d",
+        "stdout": "",
+        "stderr": "ls: cannot access 'd': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:22",
+        "command": "N",
+        "full_command": "N",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 371: N: command not found",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:23",
+        "command": "ls",
+        "full_command": "ls data-store/data/input/Di",
+        "stdout": "",
+        "stderr": "ls: cannot access 'data-store/data/input/Di': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:23",
+        "command": "ls",
+        "full_command": "ls Discovery/",
+        "stdout": "",
+        "stderr": "ls: cannot access 'Discovery/': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:28",
+        "command": "ls",
+        "full_command": "ls Discovery/",
+        "stdout": "",
+        "stderr": "ls: cannot access 'Discovery/': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:28",
+        "command": "ls",
+        "full_command": "ls data-store/data/input/Discovery",
+        "stdout": "FilteredSortedOutput\nRNASequenceOutput\nTSVFiles\nUncompressedSamples",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:28",
+        "command": "ls",
+        "full_command": "ls data-store/data/input/Discovery/",
+        "stdout": "FilteredSortedOutput\nRNASequenceOutput\nTSVFiles\nUncompressedSamples",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:29",
+        "command": "ls",
+        "full_command": "ls -l data-store/data/input/Discovery/",
+        "stdout": "total 0\ndr-x------ 0 jovyan jovyan 0 Feb 19 20:24 FilteredSortedOutput\ndr-x------ 0 jovyan jovyan 0 Feb 19 20:24 RNASequenceOutput\ndr-x------ 0 jovyan jovyan 0 Feb 19 20:35 TSVFiles\ndr-x------ 0 jovyan jovyan 0 Feb 19 20:24 UncompressedSamples",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:30",
+        "command": "TSVFiles",
+        "full_command": "TSVFiles",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 371: TSVFiles: command not found",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:30",
+        "command": "ls",
+        "full_command": "ls -l data-store/data/input/Discovery/",
+        "stdout": "total 0\ndr-x------ 0 jovyan jovyan 0 Feb 19 20:24 FilteredSortedOutput\ndr-x------ 0 jovyan jovyan 0 Feb 19 20:24 RNASequenceOutput\ndr-x------ 0 jovyan jovyan 0 Feb 19 20:35 TSVFiles\ndr-x------ 0 jovyan jovyan 0 Feb 19 20:24 UncompressedSamples",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:30",
+        "command": "TSVFiles",
+        "full_command": "TSVFiles",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 371: TSVFiles: command not found",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:32",
+        "command": "ls",
+        "full_command": "ls Stderr.txt",
+        "stdout": "",
+        "stderr": "ls: cannot access 'Stderr.txt': No such file or directory",
+        "filename": "Stderr.txt",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:33",
+        "command": "ls",
+        "full_command": "ls – l",
+        "stdout": "",
+        "stderr": "ls: cannot access '–': No such file or directory\nls: cannot access 'l': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:33",
+        "command": "ls",
+        "full_command": "ls –l",
+        "stdout": "",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:33",
+        "command": "ls",
+        "full_command": "ls –l",
+        "stdout": "",
+        "stderr": "ls: cannot access '–l': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:33",
+        "command": "ls",
+        "full_command": "ls -1",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:34",
+        "command": "ls",
+        "full_command": "ls -1 stderr.txt",
+        "stdout": "stderr.txt",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:34",
+        "command": "ls",
+        "full_command": "ls -1 ./data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stdout": "Drug_A\nDrug_B",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:34",
+        "command": "ls",
+        "full_command": "ls -1 -R ./data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stdout": "./data-store/data/input/RNA_SEQ_SAMPLES/:\nDrug_A\nDrug_B\n\n./data-store/data/input/RNA_SEQ_SAMPLES/Drug_A:\nDrug_A_1.fastq\nDrug_A_1.fastq.gz\nDrug_A_2.fastq\nDrug_A_2.fastq.gz\n\n./data-store/data/input/RNA_SEQ_SAMPLES/Drug_B:\nDrug_B_1.fastq\nDrug_B_1.fastq.gz\nDrug_B_2.fastq\nDrug_B_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:37",
+        "command": "ls",
+        "full_command": "ls -1 -R data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stdout": "data-store/data/input/RNA_SEQ_SAMPLES/:\nDrug_A\nDrug_B\n\ndata-store/data/input/RNA_SEQ_SAMPLES/Drug_A:\nDrug_A_1.fastq\nDrug_A_1.fastq.gz\nDrug_A_2.fastq\nDrug_A_2.fastq.gz\n\ndata-store/data/input/RNA_SEQ_SAMPLES/Drug_B:\nDrug_B_1.fastq\nDrug_B_1.fastq.gz\nDrug_B_2.fastq\nDrug_B_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:42",
+        "command": "cd",
+        "full_command": "cd RNA_SEQ_SAMPLES",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 357: cd: RNA_SEQ_SAMPLES: No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:42",
+        "command": "cd",
+        "full_command": "cd data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:43",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:43",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:43",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan/data-store/data/input",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:43",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:43",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan/data-store/data",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:43",
+        "command": "cd",
+        "full_command": "cd /home/jovyan/data-",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 357: cd: /home/jovyan/data-: No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:43",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan/data-store/data",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:44",
+        "command": "cd",
+        "full_command": "cd ~/data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:44",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "Drug_A\nDrug_B",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:44",
+        "command": "cd",
+        "full_command": "cd Drug_A",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:45",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES/Drug_A",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:47",
+        "command": "which",
+        "full_command": "which ls",
+        "stdout": "/usr/bin/ls",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:21:47",
+        "command": "which",
+        "full_command": "which cd",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:36",
+        "command": "gunzip",
+        "full_command": "gunzip -k \"Drug A/RNASeqSamples/fastq.9z\" -c > \"UncompressedSamples/Drug_A_1.fq",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: eval: line 371: unexpected EOF while looking for matching `\"'\n/home/jovyan/.offline.sh: eval: line 372: syntax error: unexpected end of file",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:37",
+        "command": "gunzip",
+        "full_command": "gunzip -k \"Drug A/RNASeqSamples/fastq.9z\" -c > \"UncompressedSamples/Drug_A_1.fq\"",
+        "stdout": "",
+        "stderr": "/home/jovyan/.offline.sh: line 371: UncompressedSamples/Drug_A_1.fq: No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:43",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "Drug_A_1.fastq\nDrug_A_1.fastq.gz\nDrug_A_2.fastq\nDrug_A_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:45",
+        "command": "gunzip",
+        "full_command": "gunzip -k Drug_A_1.fastq.gz",
+        "stdout": "",
+        "stderr": "gzip: Drug_A_1.fastq already exists; do you wish to overwrite (y or n)? ",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:45",
+        "command": "gunzip",
+        "full_command": "gunzip -h",
+        "stdout": "Usage: gzip [OPTION]... [FILE]...\nCompress or uncompress FILEs (by default, compress FILES in-place).\n\nMandatory arguments to long options are mandatory for short options too.\n\n -c, --stdout write on standard output, keep original files unchanged\n -d, --decompress decompress\n -f, --force force overwrite of output file and compress links\n -h, --help give this help\n -k, --keep keep (don't delete) input files\n -l, --list list compressed file contents\n -L, --license display software license\n -n, --no-name do not save or restore the original name and timestamp\n -N, --name save or restore the original name and timestamp\n -q, --quiet suppress all warnings\n -r, --recursive operate recursively on directories\n --rsyncable make rsync-friendly archive\n -S, --suffix=SUF use suffix SUF on compressed files\n --synchronous synchronous output (safer if system crashes, but slower)\n -t, --test test compressed file integrity\n -v, --verbose verbose mode\n -V, --version display version number\n -1, --fast compress faster\n -9, --best compress better\n\nWith no FILE, or when FILE is -, read standard input.\n\nReport bugs to <bug-gzip@gnu.org>.",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:47",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "Drug_A_1.fastq\nDrug_A_1.fastq.gz\nDrug_A_2.fastq\nDrug_A_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:48",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES/Drug_A",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:48",
+        "command": "cd",
+        "full_command": "cd ~",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:48",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:50",
+        "command": "cd",
+        "full_command": "cd data-store",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:50",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data\nhome\nuser",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:50",
+        "command": "cd",
+        "full_command": "cd data",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:52",
+        "command": "cd",
+        "full_command": "cd ~",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:52",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:53",
+        "command": "ls",
+        "full_command": "ls > output.txt",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:53",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\noutput.txt\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:53",
+        "command": "cat",
+        "full_command": "cat output.txt",
+        "stdout": "data-store\noutput.txt\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "output.txt",
+        "file": "data-store\noutput.txt\nstderr.txt\nSuperShell\nwork"
+      },
+      {
+        "time": "2024-02-19:22:57",
+        "command": "pwd",
+        "full_command": "pwd",
+        "stdout": "/home/jovyan",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:57",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:58",
+        "command": "gunzip",
+        "full_command": "gunzip Drug_A_2.fastq.gz -c Drug_A_2.fq",
+        "stdout": "",
+        "stderr": "gzip: Drug_A_2.fastq.gz: No such file or directory\ngzip: Drug_A_2.fq.gz: No such file or directory",
+        "filename": "Drug_A_2.fastq.gz",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:59",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:59",
+        "command": "cd",
+        "full_command": "cd data-store",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:59",
+        "command": "gunzip",
+        "full_command": "gunzip Drug_A_2.fastq.gz -c Drug_A_2.fq",
+        "stdout": "",
+        "stderr": "gzip: Drug_A_2.fastq.gz: No such file or directory\ngzip: Drug_A_2.fq.gz: No such file or directory",
+        "filename": "Drug_A_2.fastq.gz",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:22:59",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data\nhome\nuser",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:01",
+        "command": "cd",
+        "full_command": "cd /home/jovyan/data-store/data/input/RNA_SEQ_SAMPLES/Drug_A",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:01",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "Drug_A_1.fastq\nDrug_A_1.fastq.gz\nDrug_A_2.fastq\nDrug_A_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:03",
+        "command": "gunzip",
+        "full_command": "gunzip Drug_B_1.fastq.gz -c Drug_B_1.fq",
+        "stdout": "",
+        "stderr": "gzip: Drug_B_1.fastq.gz: No such file or directory\ngzip: Drug_B_1.fq.gz: No such file or directory",
+        "filename": "Drug_B_1.fastq.gz",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:03",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "Drug_A_1.fastq\nDrug_A_1.fastq.gz\nDrug_A_2.fastq\nDrug_A_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:03",
+        "command": "cd",
+        "full_command": "cd ..",
+        "stdout": "",
+        "stderr": "",
+        "filename": "..",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:03",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "Drug_A\nDrug_B",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:03",
+        "command": "cd",
+        "full_command": "cd Drug_B",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:05",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "Drug_B_1.fastq\nDrug_B_1.fastq.gz\nDrug_B_2.fastq\nDrug_B_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:07",
+        "command": "gunzip",
+        "full_command": "gunzip -h",
+        "stdout": "Usage: gzip [OPTION]... [FILE]...\nCompress or uncompress FILEs (by default, compress FILES in-place).\n\nMandatory arguments to long options are mandatory for short options too.\n\n -c, --stdout write on standard output, keep original files unchanged\n -d, --decompress decompress\n -f, --force force overwrite of output file and compress links\n -h, --help give this help\n -k, --keep keep (don't delete) input files\n -l, --list list compressed file contents\n -L, --license display software license\n -n, --no-name do not save or restore the original name and timestamp\n -N, --name save or restore the original name and timestamp\n -q, --quiet suppress all warnings\n -r, --recursive operate recursively on directories\n --rsyncable make rsync-friendly archive\n -S, --suffix=SUF use suffix SUF on compressed files\n --synchronous synchronous output (safer if system crashes, but slower)\n -t, --test test compressed file integrity\n -v, --verbose verbose mode\n -V, --version display version number\n -1, --fast compress faster\n -9, --best compress better\n\nWith no FILE, or when FILE is -, read standard input.\n\nReport bugs to <bug-gzip@gnu.org>.",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:09",
+        "command": "gunzip",
+        "full_command": "gunzip -k -c Drug_B_1.fastq.gz > ~/Drug_B_1.fq",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:09",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "Drug_B_1.fastq\nDrug_B_1.fastq.gz\nDrug_B_2.fastq\nDrug_B_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:10",
+        "command": "cd",
+        "full_command": "cd ~",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:10",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nDrug_B_1.fq\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:12",
+        "command": "gunzip",
+        "full_command": "gunzip -k -c data-store/data/input/RNA_SEQ_SAMPLES/Drug_A/Drug_A_1.fastq.gz > Drug_A_1.fq",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:12",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nDrug_A_1.fq\nDrug_B_1.fq\nstderr.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:15",
+        "command": "echo",
+        "full_command": "echo -h",
+        "stdout": "-h",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2024-02-19:23:15",
+        "command": "echo",
+        "full_command": "echo $PATH",
+        "stdout": "/opt/conda/bin:/opt/conda/condabin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/opt/gocommands",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      }
+    ]
+  }
+}

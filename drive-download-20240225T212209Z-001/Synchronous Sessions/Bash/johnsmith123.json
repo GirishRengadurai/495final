@@ -1,0 +1,240 @@
+{
+  "_id": {
+    "$oid": "6584abbfbdd0ccda5497399a"
+  },
+  "timestamp": "2023-12-21 21:39:05.18",
+  "log_id": "8090023b6fc6c30ba6852ec3e657289ec24344c46975fc1feede8b3ab5f4e2a7",
+  "machine_id": "a8d37",
+  "session_id": "johnsmith123",
+  "course_id": "Cyverse-RNA-Tutorial",
+  "log_type": "Bash",
+  "log": {
+    "commands": [
+      {
+        "time": "2023-12-21:21:19",
+        "command": "ls",
+        "full_command": "ls /home/jovyan",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:19",
+        "command": "ls",
+        "full_command": "ls stderr.txt",
+        "stdout": "stderr.txt",
+        "stderr": "",
+        "filename": "stderr.txt",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:20",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:20",
+        "command": "ls",
+        "full_command": "ls Stderr.txt",
+        "stdout": "",
+        "stderr": "ls: cannot access 'Stderr.txt': No such file or directory",
+        "filename": "Stderr.txt",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:20",
+        "command": "ls",
+        "full_command": "ls data-store/",
+        "stdout": "data\nhome\nuser",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:21",
+        "command": "ls",
+        "full_command": "ls data-store/data/input/Discovery/",
+        "stdout": "FilteredSortedOutput\nRNASequenceOutput\nTSVFiles\nUncompressedSamples",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:21",
+        "command": "history",
+        "full_command": "history",
+        "stdout": " 1 ls /home/jovyan\n 2 ls stderr.txt\n 3 ls\n 4 ls Stderr.txt\n 5 ls data-store/\n 6 ls data-store/data/input/Discovery/\n 7 history",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:22",
+        "command": "ls",
+        "full_command": "ls data-store/data/input/Discovery/",
+        "stdout": "FilteredSortedOutput\nRNASequenceOutput\nTSVFiles\nUncompressedSamples",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:22",
+        "command": "ls",
+        "full_command": "ls -l data-store/data/input/Discovery/",
+        "stdout": "total 0\ndr-x------ 0 jovyan jovyan 0 Dec 21 21:07 FilteredSortedOutput\ndr-x------ 0 jovyan jovyan 0 Dec 21 21:07 RNASequenceOutput\ndr-x------ 0 jovyan jovyan 0 Dec 21 21:07 TSVFiles\ndr-x------ 0 jovyan jovyan 0 Dec 21 21:07 UncompressedSamples",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:22",
+        "command": "ls",
+        "full_command": "ls -l data-store/data/input/Discovery/TSVFiles",
+        "stdout": "total 24272\n-r-x------ 0 jovyan jovyan 6237689 Dec 21 20:00 A_1_abundance.tsv\n-r-x------ 0 jovyan jovyan 6135948 Dec 21 20:00 A_2_abundance.tsv\n-r-x------ 0 jovyan jovyan 6237909 Dec 21 20:00 B_1_abundance.tsv\n-r-x------ 0 jovyan jovyan 6237909 Dec 21 20:00 B_2_abundance.tsv",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:23",
+        "command": "ls",
+        "full_command": "ls home",
+        "stdout": "",
+        "stderr": "ls: cannot access 'home': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:23",
+        "command": "ls",
+        "full_command": "ls ./",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "./",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:23",
+        "command": "ls",
+        "full_command": "ls",
+        "stdout": "data-store\nstderr.txt\nstdout.txt\nSuperShell\nwork",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:23",
+        "command": "ls",
+        "full_command": "ls home",
+        "stdout": "",
+        "stderr": "ls: cannot access 'home': No such file or directory",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:24",
+        "command": "ls",
+        "full_command": "ls ../",
+        "stdout": "jovyan\nshiny",
+        "stderr": "",
+        "filename": "../",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:25",
+        "command": "ls",
+        "full_command": "ls -l",
+        "stdout": "total 0\ndrwxrwsrwx 3 root jovyan 58 Dec 21 21:18 data-store\n-rw-r--r-- 1 jovyan users 0 Dec 21 21:25 stderr.txt\n-rw-r--r-- 1 jovyan users 0 Dec 21 21:25 stdout.txt\ndrwxr-sr-x 1 jovyan users 39 Oct 25 17:57 SuperShell\ndrwsrwsr-x 2 jovyan users 10 Mar 20 2023 work",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:26",
+        "command": "ls",
+        "full_command": "ls -l stderr.txt",
+        "stdout": "-rw-r--r-- 1 jovyan users 0 Dec 21 21:26 stderr.txt",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:26",
+        "command": "ls",
+        "full_command": "ls -l ./data-store/data/input/RNA_SEQ_SAMPLES/ stderr.txt",
+        "stdout": "-rw-r--r-- 1 jovyan users 0 Dec 21 21:26 stderr.txt\n\n./data-store/data/input/RNA_SEQ_SAMPLES/:\ntotal 0\ndr-x------ 0 jovyan jovyan 0 May 29 2020 Drug_A\ndr-x------ 0 jovyan jovyan 0 May 29 2020 Drug_B",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:26",
+        "command": "ls",
+        "full_command": "ls -l -R ./data-store/data/input/RNA_SEQ_SAMPLES/",
+        "stdout": "./data-store/data/input/RNA_SEQ_SAMPLES/:\ntotal 0\ndr-x------ 0 jovyan jovyan 0 May 29 2020 Drug_A\ndr-x------ 0 jovyan jovyan 0 May 29 2020 Drug_B\n\n./data-store/data/input/RNA_SEQ_SAMPLES/Drug_A:\ntotal 9024\n-r-x------ 0 jovyan jovyan 3677295 May 20 2020 Drug_A_1.fastq\n-r-x------ 0 jovyan jovyan 804307 May 20 2020 Drug_A_1.fastq.gz\n-r-x------ 0 jovyan jovyan 3978812 May 22 2020 Drug_A_2.fastq\n-r-x------ 0 jovyan jovyan 772800 May 20 2020 Drug_A_2.fastq.gz\n\n./data-store/data/input/RNA_SEQ_SAMPLES/Drug_B:\ntotal 9392\n-r-x------ 0 jovyan jovyan 3978812 May 20 2020 Drug_B_1.fastq\n-r-x------ 0 jovyan jovyan 827189 May 22 2020 Drug_B_1.fastq.gz\n-r-x------ 0 jovyan jovyan 3978812 May 20 2020 Drug_B_2.fastq\n-r-x------ 0 jovyan jovyan 827189 May 22 2020 Drug_B_2.fastq.gz",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:27",
+        "command": "ls",
+        "full_command": "ls -l ./SuperShell",
+        "stdout": "total 60364\n-rwxr-xr-x 1 jovyan users 47 Oct 25 17:57 add_interactive.sh\n-rwxr-xr-x 1 jovyan users 7154 Oct 25 17:57 codehelper.sh\n-rwxr-xr-x 1 jovyan users 9953 Oct 25 17:57 consent.txt\n-rwxr-xr-x 1 jovyan users 20 Oct 25 17:57 courseid.txt\n-rwxr-xr-x 1 jovyan users 440 Oct 25 17:57 cyverse_install.sh\n-rwxr-xr-x 1 jovyan users 82 Oct 25 17:57 disable_help.sh\n-rwxr-xr-x 1 jovyan users 493 Oct 25 17:57 docker_install.sh\n-rwxr-xr-x 1 jovyan users 83 Oct 25 17:57 enable_help.sh\n-rwxr-xr-x 1 jovyan users 256548 Oct 25 17:57 flowchart.png\ndrwxr-sr-x 2 jovyan users 239 Oct 25 17:57 images\n-rwxr-xr-x 1 jovyan users 449 Oct 25 17:57 install.sh\n-rwxr-xr-x 1 jovyan users 71 Oct 25 17:57 install_supershell.sh\n-rwxr-xr-x 1 jovyan users 25 Oct 25 17:57 interactive.txt\n-rwxr-xr-x 1 jovyan users 1074 Oct 25 17:57 LICENSE\n-rwxr-xr-x 1 jovyan users 678 Oct 25 17:57 linux_install.sh\n-rwxr-xr-x 1 jovyan users 699 Oct 25 17:57 mac_install.sh\n-rwxr-xr-x 1 jovyan users 0 Oct 25 17:57 mail.txt\n-rwxr-xr-x 1 jovyan users 39814 Oct 25 17:57 offline.sh\n-rwxr-xr-x 1 jovyan users 18137 Oct 25 17:57 offline_with_online.sh\n-rwxr-xr-x 1 jovyan users 2001 Oct 25 17:57 push_events.sh\n-rwxr-xr-x 1 jovyan users 3446 Oct 25 17:57 README.md\n-rwxr-xr-x 1 jovyan users 15 Oct 25 17:57 ruledir.txt\n-rwxr-xr-x 1 jovyan users 339 Oct 25 17:57 session_extract.sh\n-rwxr-xr-x 1 jovyan users 6105 Oct 25 17:57 shell2.sh\n-rwxr-xr-x 1 jovyan users 6101 Oct 25 17:57 shell.sh\ndrwxr-sr-x 2 jovyan users 71 Oct 25 17:57 StatParam\n-rwxr-xr-x 1 jovyan users 62 Oct 25 17:57 supershellhelpmessage.txt\n-rwxr-xr-x 1 jovyan users 3 Oct 25 17:57 supershellhelp.txt\ndrwxr-sr-x 1 jovyan users 55 Dec 21 21:18 SuperShellHistory\n-rwxr-xr-x 1 jovyan users 2118 Oct 25 17:57 supershellinfo.txt\ndrwxr-sr-x 3 jovyan users 144 Oct 25 17:57 SuperShellRules\n-rwxr-xr-x 1 jovyan users 30522687 Oct 25 17:57 TestSender2.jar\n-rwxr-xr-x 1 jovyan users 30523328 Oct 25 17:57 TestSender.jar\n-rwxr-xr-x 1 jovyan users 1195 Oct 25 17:57 title.txt\n-rwxr-xr-x 1 jovyan users 326139 Oct 25 17:57 Towards a Helpful Shell_ Scenarios and Commands.pdf",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:33",
+        "command": "cd",
+        "full_command": "cd",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:36",
+        "command": "which",
+        "full_command": "which pwd",
+        "stdout": "/usr/bin/pwd",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:36",
+        "command": "which",
+        "full_command": "which cd",
+        "stdout": "",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:36",
+        "command": "which",
+        "full_command": "which which",
+        "stdout": "/usr/bin/which",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      },
+      {
+        "time": "2023-12-21:21:36",
+        "command": "which",
+        "full_command": "which echo",
+        "stdout": "/usr/bin/echo",
+        "stderr": "",
+        "filename": "",
+        "file": ""
+      }
+    ]
+  }
+}
