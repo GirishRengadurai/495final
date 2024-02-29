@@ -1,7 +1,7 @@
 import json
 from openai import OpenAI
 from newScript import parse_json
-client = OpenAI(api_key='sk-APIKEYHIDDEN')
+client = OpenAI(api_key='sk-')
 
 error_list = []
 
@@ -41,13 +41,18 @@ def find_in_json(data, key="stderr"):
 
 
 if __name__ == '__main__':
-    json_file_path = "C:\\Users\\giris\\Documents\\0uni\\495\\drive-download-20240225T212209Z-001\\Synchronous Sessions\\Bash\\sexysushi_One.json" # path to JSON file with logs
+    json_file_path = "C:\\Users\\giris\\Documents\\0uni\\495\\drive-download-20240225T212209Z-001\\Synchronous Sessions\\Bash\\zwy324.json" # path to JSON file with logs
     with open(json_file_path, 'r') as file:
         json_data = file.read()  
         parsed_json_arr = parse_json(json_data)
         for i, j in enumerate(parsed_json_arr): # this iterates through the file and prints all errors
             if len(j["stderr"]) > 0: # contains an error
                 # print(f"Error on line {i}: ", j[]
-                gptPromptString = f'What is the error here? Running this command: {j["full_command"]} results in this error: {j["stderr"]}.'
+                if (j["stderr"][:2] == "ls"): 
+                    continue
+                print(j["stderr"])
+                
+                gptPromptString = f'What is the error here? Running this command: {j["full_command"]} \ results in this error: {j["stderr"]}. The last command run before this one was: {parsed_json_arr[i-1]["full_command"]}. Is there any relation to this error?'
                 send_to_chatgpt(gptPromptString)
+
                 # print(gptPromptString)
