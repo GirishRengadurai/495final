@@ -1,7 +1,7 @@
 import json
 from openai import OpenAI
 from newScript import parse_json
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='sk-APIKEYHIDDEN')
 
 error_list = []
 
@@ -49,4 +49,5 @@ if __name__ == '__main__':
             if len(j["stderr"]) > 0: # contains an error
                 # print(f"Error on line {i}: ", j[]
                 gptPromptString = f'What is the error here? Running this command: {j["full_command"]} results in this error: {j["stderr"]}.'
-                print(gptPromptString)
+                send_to_chatgpt(gptPromptString)
+                # print(gptPromptString)
